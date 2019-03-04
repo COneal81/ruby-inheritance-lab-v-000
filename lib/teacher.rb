@@ -6,6 +6,7 @@ class Teacher < User
   
   def initialize
     KNOWLEDGWE << self
+  end
   
   def teach 
    KNOWLEDGWE.sample
