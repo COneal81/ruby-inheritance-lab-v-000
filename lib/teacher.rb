@@ -5,7 +5,7 @@ class Teacher < User
   KNOWLEDGWE = []
   
   def teach 
-    KNOWLEDGWE.sample
+   self.sample
   end
   
   
