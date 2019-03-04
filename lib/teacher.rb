@@ -4,8 +4,11 @@ class Teacher < User
   
   KNOWLEDGWE = []
   
+  def initialize
+    KNOWLEDGWE << self
+  
   def teach 
-   @knowledge.sample
+   KNOWLEDGWE.sample
   end
   
   
