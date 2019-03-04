@@ -4,4 +4,9 @@ class Teacher < User
   
   KNOWLEDGWE = []
   
+  def teach 
+    
+  end
+  
+  
 end
